@@ -1,0 +1,263 @@
+object Form12: TForm12
+  Left = 0
+  Top = 0
+  Caption = 'Form12'
+  ClientHeight = 488
+  ClientWidth = 373
+  Fill.Kind = Solid
+  WindowState = wsMaximized
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  ShowFullScreenIcon = True
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object toolbar: TRectangle
+    Align = Top
+    Fill.Color = xFF4D7EC3
+    Size.Width = 373.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object Label2: TLabel
+      Align = Contents
+      StyledSettings = [Family, Style]
+      HitTest = True
+      Size.Width = 373.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = 'Selecione as quest'#245'es'
+      TabOrder = 0
+    end
+    object Image1: TImage
+      MultiResBitmap.Height = 32
+      MultiResBitmap.Width = 32
+      MultiResBitmap = <
+        item
+          Width = 32
+          Height = 32
+          PNG = {
+            89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+            F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            013D494441545847ED945D4B02411486B7FBC8D4343553A2FFDF5574D17D1099
+            696AA59911FD8CFDEC39F06E08116139D3CD3C30CCC73B9EE7EC821B05028180
+            0F8AA2A8645976C938D3913F90EFA7697AC35C244932D7B11F241F48FE9AE779
+            5F917B705619B7A59CA9A7C83D3C698D271F4ABE627FACC83D92DF49FEC2BEAB
+            C83DC8EAC847922FFF433E96FC99FD91A2CDE0BF7AC138A7CEAE8E7E84BB07C8
+            EF255F20EF28DA0C7EBF13C7F19B15A2E01585F6147D0B771ADC9D483EFFB5BC
+            8402A734F1AE26AE992A8ABE20F9744DDE56F4372874B2F626EC435255F40977
+            9A6433C99F985A8AB603823E85ED03624D0CD9D714597648F620F9A3ED156D17
+            EAF710ACD4C408519D65CBA476664D70D6D4753720E8225AAA89096B7BDDB69E
+            39979720EA205E98D8403EE5ACA1D80F08DB88C78C81777920107047147D0014
+            CA907FC5891FDA0000000049454E44AE426082}
+          FileName = 'C:\Users\elias\Desktop\curso\Images\icon-salvar.png'
+        end>
+      Align = Right
+      Position.X = 323.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      WrapMode = Center
+      OnClick = Image1Click
+    end
+    object Image3: TImage
+      MultiResBitmap.Width = 48
+      MultiResBitmap = <
+        item
+          Width = 48
+          Height = 48
+          PNG = {
+            89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+            87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            00AD494441546843EDD9CD0D83300C86E1884BB7602896EAB103315B927EAE8C
+            D48A016CA7EF73E12797D7C0014103009435C678F86E2D73CEBDF7FED4766A88
+            C34FD7E0F12F8B37DA3F7D293FF5FEC49B327740ADB7783BF6E5DCD44A7C08B5
+            121F42ADC487502BF121D44A7C08B5D68D378AFDBC125F22E237DFFE275DF4DA
+            8F90513343A4A066864841CD0C91829A1922053533440A6A5E73083EEE4650B7
+            0D51F3F3FAB7B23F38006015ADBD01726D97BD182523460000000049454E44AE
+            426082}
+          FileName = 'C:\Users\elias\Desktop\curso\Images\icon-voltar.png'
+        end>
+      Align = Left
+      Size.Width = 57.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Image3Click
+    end
+  end
+  object Rectangle1: TRectangle
+    Align = Bottom
+    Fill.Color = xFF4D7EC3
+    Position.Y = 440.000000000000000000
+    Size.Width = 373.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object Label1: TLabel
+      Align = Contents
+      StyledSettings = [Family, Style]
+      HitTest = True
+      Size.Width = 373.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = 
+        'Ap'#243's selecionar todas as quest'#245'es, clique em &Salvar&, para fina' +
+        'lizar a publica'#231#227'o'
+      TabOrder = 0
+    end
+  end
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 373.000000000000000000
+    Size.Height = 392.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object ListView1: TListView
+      ItemAppearanceClassName = 'TDynamicAppearance'
+      ItemEditAppearanceClassName = 'TDynamicAppearance'
+      HeaderAppearanceClassName = 'TListHeaderObjects'
+      FooterAppearanceClassName = 'TListHeaderObjects'
+      Align = Client
+      Size.Width = 373.000000000000000000
+      Size.Height = 342.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      ItemAppearance.ItemHeight = 90
+      ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+        item
+          AppearanceObjectName = 'Text1'
+          AppearanceClassName = 'TTextObjectAppearance'
+          Appearance.TextAlign = Leading
+          Appearance.TextVertAlign = Leading
+          Appearance.TextColor = claSlateblue
+          Appearance.Width = 351.000000000000000000
+          Appearance.Height = 25.000000000000000000
+        end
+        item
+          AppearanceObjectName = 'Text2'
+          AppearanceClassName = 'TTextObjectAppearance'
+          Appearance.TextAlign = Leading
+          Appearance.TextVertAlign = Leading
+          Appearance.WordWrap = True
+          Appearance.TextColor = claSlateblue
+          Appearance.Width = 351.000000000000000000
+          Appearance.Height = 49.000000000000000000
+          Appearance.PlaceOffset.Y = 24.000000000000000000
+        end
+        item
+          AppearanceObjectName = 'Text3'
+          AppearanceClassName = 'TTextObjectAppearance'
+          Appearance.TextAlign = Leading
+          Appearance.TextVertAlign = Leading
+          Appearance.TextColor = claRed
+          Appearance.Width = 353.000000000000000000
+          Appearance.Height = 18.000000000000000000
+          Appearance.PlaceOffset.Y = 72.000000000000000000
+        end>
+      ItemAppearanceObjects.ItemEditObjects.ObjectsCollection = <
+        item
+          AppearanceObjectName = 'Text1'
+          AppearanceClassName = 'TTextObjectAppearance'
+        end>
+      OnItemClick = ListView1ItemClick
+    end
+    object Layout4: TLayout
+      Align = Top
+      Size.Width = 373.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Rectangle3: TRectangle
+        Align = Client
+        Fill.Color = xFFF6F6F6
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 7.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 7.000000000000000000
+        Size.Width = 353.000000000000000000
+        Size.Height = 36.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = xFFDADADA
+        XRadius = 18.000000000000000000
+        YRadius = 18.000000000000000000
+        object Edit1: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          StyleLookup = 'EditStyle'
+          TabOrder = 0
+          TextSettings.FontColor = xFF5F5F5F
+          Opacity = 0.400000005960464500
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 3.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Size.Width = 333.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Pesquisar Quest'#245'es'
+          StyledSettings = [Family, Style]
+          Caret.Color = claBeige
+          object Image2: TImage
+            MultiResBitmap.Height = 48
+            MultiResBitmap.Width = 48
+            MultiResBitmap = <
+              item
+                Width = 48
+                Height = 48
+                PNG = {
+                  89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+                  87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                  0441494441546843ED9851681C551486CFBD33496C934C1E0AA58A206A412982
+                  8F6ADD6D88C5627583824411F5D5A28F222A25DDED2654D1D687EA535E6B416C
+                  5EC46C5508126C8228F8A282E0836F8A552AA5936A36DDD97B3CE7CEC92662D2
+                  DC3BB3EA0AF341C8396737BBF3CFDC7BEE7F02050505050505FF6794FCCECCC4
+                  C4B9A079E78D0F00E0A3A0D4BDD756E1F6E66A1245105E3383705107E65B05FA
+                  D34425EF7F541FBB287FD63572084055A92E3E63DA500D02B5578A5B13436222
+                  380B493079FEB5FD3F49353799043C5C5BD813607896C28369C59DF61F7055EF
+                  C4171A5307DE95522EB4FC7666BCF6F9DE00F517146EB8F8E665443C0D0887A0
+                  15EE8955D2876AC72018B80B513D0F6896E48D10EC842105EACC7875B1CE4F51
+                  CA99F1FA80F4CEF3C5EB5BD24A8C80D129D554D31F9E2C2DA7B5CDA91CBB308A
+                  CACC6808EE9012F3D2DC54F92D8933E12100D57875699E027BE757E1F7957E1C
+                  7CBC315DFE987317266A0B434DD4E7E8061CE63C8E13333C128E36EAE5CE13F2
+                  C55940A57AE1597EF46916D38A891EF1B9F835466B0B374446CF83D225CE8D81
+                  EFAE06C9DD9FD5C712FB064F9CF600B74AEE3692D2C3884E65B978862EB4D9D2
+                  E629DECC9C6B0DFB86B0EF49FB62069C04709F5F6F95CDCBBCE6D3381B9FD4C7
+                  7ED43BF0A4A47411E68884DE3876213AA404C48133DB6D5817A851CDC4D455D3
+                  6CB9F4D8AB5FEE4A633FDC04D0092B116D1A755EC25CCCBD7EDF2FC3005FA559
+                  A45A03AD7BD2D80F27016C0F240448C26F24EA02E66B0940A359FF0E0FDCF600
+                  791B0921EE6FFE266117D09724A0A5A94624F4C249001B3309611886FB25CC0F
+                  6D28896895AEED073F9C04B0AB9410547BE5560973A314DE26211F083F4BE485
+                  9300B6C412D279ACCA12E6C29E2D2D73BFA4D41CB0B31F7C7012C07E5E428ADB
+                  4F4B988B957D371DD47DE16E9BB4E0D2C0F7BF666A0E4E027818613F6F13B200
+                  6CCC6C9C197A8E682625010CE1BDD9D927FEB93DC093941D460476956CCC24F5
+                  A6525D7A8EEE845D8A7C9885469DB62F64C049808526A98E7F214BCCAE928D99
+                  7DCD834A6DE9105DF63B924284F0F607274A3F48EA8DB3001E0379929294D087
+                  D9553E545BB8590ADB6047D02380571A0AA23E2952155624CC84F744944E52EB
+                  CED48E8864CCD8DBB03D907207EE36BC61D335BF450743A8CF4D978F4BE64586
+                  91CE0E362FD230F26614859D27C86B39F5366C0FE884A5438AFB3CB7CA4EB7B9
+                  1E194564109052A92D96B00D33ECE7A5B42D2C92D73C2F1BFAE2A3525E278388
+                  CC0218DAC4210F23A99F5FA6092BDAFCF3A8CF73ABE46EB3B661C78F2D1EA76F
+                  AFD9D737E2292297808DB09F674BCCAE928D99F536640FF884E5436AB33EDF0D
+                  115D139095BC22FE73014C1E113D2180D94A04024E36A60E9C90F46FF48C0066
+                  3311DCB976AF3677CDBEF1E01529FD05772BF12F60970B2D1B492D514C95EBD0
+                  53021816C1CBC6FEC7821C3046F8F25677BFA79978657E847F242D282828E849
+                  00FE045F48AD553E9C153B0000000049454E44AE426082}
+                FileName = 'C:\Users\elias\Desktop\curso\Images\icon-busca.png'
+              end>
+            Align = Right
+            Position.X = 294.000000000000000000
+            Size.Width = 39.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            OnClick = Image2Click
+          end
+        end
+      end
+    end
+  end
+end

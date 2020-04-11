@@ -1,0 +1,20 @@
+inherited Form_questoes1: TForm_questoes1
+  Caption = 'Form_questoes1'
+  DesignerMasterStyle = 0
+  inherited toolbar: TRectangle
+    inherited Label2: TLabel
+      Text = 'Verdadeiro ou Falso'
+    end
+    inherited Image1: TImage
+      MultiResBitmap.Height = 32
+      MultiResBitmap.Width = 32
+    end
+  end
+  inherited Image2: TImage
+    MultiResBitmap.Height = 48
+    MultiResBitmap.Width = 48
+  end
+  inherited Label3: TLabel
+    Position.Y = 216.000000000000000000
+  end
+end

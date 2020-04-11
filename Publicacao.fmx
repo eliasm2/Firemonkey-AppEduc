@@ -1,0 +1,340 @@
+object Form9: TForm9
+  Left = 0
+  Top = 0
+  Caption = 'Form9'
+  ClientHeight = 482
+  ClientWidth = 474
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object toolbar: TRectangle
+    Align = Top
+    Fill.Color = xFF4D7EC3
+    Size.Width = 474.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object Label2: TLabel
+      Align = Contents
+      StyledSettings = [Family, Style]
+      HitTest = True
+      Size.Width = 474.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = 'Publicar prova'
+      TabOrder = 0
+    end
+    object Image1: TImage
+      MultiResBitmap.Height = 32
+      MultiResBitmap.Width = 32
+      MultiResBitmap = <
+        item
+          Width = 32
+          Height = 32
+          PNG = {
+            89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+            F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            013D494441545847ED945D4B02411486B7FBC8D4343553A2FFDF5574D17D1099
+            696AA59911FD8CFDEC39F06E08116139D3CD3C30CCC73B9EE7EC821B05028180
+            0F8AA2A8645976C938D3913F90EFA7697AC35C244932D7B11F241F48FE9AE779
+            5F917B705619B7A59CA9A7C83D3C698D271F4ABE627FACC83D92DF49FEC2BEAB
+            C83DC8EAC847922FFF433E96FC99FD91A2CDE0BF7AC138A7CEAE8E7E84BB07C8
+            EF255F20EF28DA0C7EBF13C7F19B15A2E01585F6147D0B771ADC9D483EFFB5BC
+            8402A734F1AE26AE992A8ABE20F9744DDE56F4372874B2F626EC435255F40977
+            9A6433C99F985A8AB603823E85ED03624D0CD9D714597648F620F9A3ED156D17
+            EAF710ACD4C408519D65CBA476664D70D6D4753720E8225AAA89096B7BDDB69E
+            39979720EA205E98D8403EE5ACA1D80F08DB88C78C81777920107047147D0014
+            CA907FC5891FDA0000000049454E44AE426082}
+          FileName = 'C:\Users\elias\Desktop\curso\Images\icon-salvar.png'
+        end>
+      Align = Right
+      Position.X = 424.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      WrapMode = Center
+      OnClick = Image1Click
+    end
+    object Image3: TImage
+      MultiResBitmap.Width = 48
+      MultiResBitmap = <
+        item
+          Width = 48
+          Height = 48
+          PNG = {
+            89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+            87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            00AD494441546843EDD9CD0D83300C86E1884BB7602896EAB103315B927EAE8C
+            D48A016CA7EF73E12797D7C0014103009435C678F86E2D73CEBDF7FED4766A88
+            C34FD7E0F12F8B37DA3F7D293FF5FEC49B327740ADB7783BF6E5DCD44A7C08B5
+            121F42ADC487502BF121D44A7C08B5D68D378AFDBC125F22E237DFFE275DF4DA
+            8F90513343A4A066864841CD0C91829A1922053533440A6A5E73083EEE4650B7
+            0D51F3F3FAB7B23F38006015ADBD01726D97BD182523460000000049454E44AE
+            426082}
+          FileName = 'C:\Users\elias\Desktop\curso\Images\icon-voltar.png'
+        end>
+      Align = Left
+      Size.Width = 57.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object Layout1: TLayout
+    Align = Top
+    Position.Y = 110.000000000000000000
+    Size.Width = 474.000000000000000000
+    Size.Height = 62.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    object Label1: TLabel
+      Align = Left
+      StyledSettings = [Family, Style]
+      Margins.Left = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 1.000000000000000000
+      Size.Width = 69.000000000000000000
+      Size.Height = 61.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.FontColor = xFF4D7EC3
+      Text = 'Valor'
+      TabOrder = 0
+    end
+    object Image4: TImage
+      MultiResBitmap.Height = 48
+      MultiResBitmap.Width = 26
+      MultiResBitmap = <
+        item
+          Width = 26
+          Height = 48
+          PNG = {
+            89504E470D0A1A0A0000000D494844520000001A0000003008060000000F7D6A
+            9E000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            0145494441545847EDD73F52834014C77190024B4F9003C0D07B046A6718CE60
+            67BA1CC12E761E82F100169EC2811476DEC022850543DE2F7962B140D8F75E1A
+            E53BB3B36C92E1339B823FC1D2D23F2BCFF3980FCD8A78EE2BCBF22E8EE3F734
+            4DAF9324F9689AE68BBF5275C5735FDBB6F77CB8A1B12E8A62755AEA72769465
+            D99EA612C76118DE62A2DDEDB43B73A0BAAE77F497DD3062863910A213BE5A63
+            8310B2C6462164894D42C80A3B0B210B6C1684B4D86C0869302F0849316F0849
+            3011847C3131847C30158486301ADF74CD7C3BFE80736E13974A0DD1FD6A4B3B
+            78E065D075DD138D675EF6853C8B1A4268DA5655F579FAE43731E4832011E48B
+            206F4882202F488AA0D9900641B3202D82CE4216089A84AC10340A59226810B2
+            469003E1219F4EFCC24B13044D3DE49B21C881A228FAB9F23ED2304146BBC48B
+            D8D2D29F2D080EDD691216FCF990B50000000049454E44AE426082}
+          FileName = 
+            'D:\Downloads\Mobile360\25 - Cadastro de Produtos\Fontes\Images\i' +
+            'con-detalhe.png'
+        end>
+      Align = Right
+      Margins.Right = 5.000000000000000000
+      Position.X = 446.000000000000000000
+      Position.Y = 1.000000000000000000
+      Size.Width = 23.000000000000000000
+      Size.Height = 61.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Line2: TLine
+      Align = Top
+      LineType = Diagonal
+      Size.Width = 474.000000000000000000
+      Size.Height = 1.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFFECECEC
+    end
+    object memomateria: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      MaxLength = 3
+      Align = Left
+      Margins.Top = 17.000000000000000000
+      Margins.Bottom = 17.000000000000000000
+      Position.X = 79.000000000000000000
+      Position.Y = 18.000000000000000000
+      Size.Width = 98.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Viewport.Width = 94.000000000000000000
+      Viewport.Height = 23.000000000000000000
+    end
+  end
+  object Layout2: TLayout
+    Align = Top
+    Position.Y = 48.000000000000000000
+    Size.Width = 474.000000000000000000
+    Size.Height = 62.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    object Label3: TLabel
+      Align = Left
+      StyledSettings = [Family, Style]
+      Margins.Left = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 1.000000000000000000
+      Size.Width = 69.000000000000000000
+      Size.Height = 61.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.FontColor = xFF4D7EC3
+      Text = 'Turma'
+      TabOrder = 0
+    end
+    object Image2: TImage
+      MultiResBitmap.Height = 48
+      MultiResBitmap.Width = 26
+      MultiResBitmap = <
+        item
+          Width = 26
+          Height = 48
+          PNG = {
+            89504E470D0A1A0A0000000D494844520000001A0000003008060000000F7D6A
+            9E000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            0145494441545847EDD73F52834014C77190024B4F9003C0D07B046A6718CE60
+            67BA1CC12E761E82F100169EC2811476DEC022850543DE2F7962B140D8F75E1A
+            E53BB3B36C92E1339B823FC1D2D23F2BCFF3980FCD8A78EE2BCBF22E8EE3F734
+            4DAF9324F9689AE68BBF5275C5735FDBB6F77CB8A1B12E8A62755AEA72769465
+            D99EA612C76118DE62A2DDEDB43B73A0BAAE77F497DD3062863910A213BE5A63
+            8310B2C6462164894D42C80A3B0B210B6C1684B4D86C0869302F0849316F0849
+            3011847C3131847C30158486301ADF74CD7C3BFE80736E13974A0DD1FD6A4B3B
+            78E065D075DD138D675EF6853C8B1A4268DA5655F579FAE43731E4832011E48B
+            206F4882202F488AA0D9900641B3202D82CE4216089A84AC10340A59226810B2
+            469003E1219F4EFCC24B13044D3DE49B21C881A228FAB9F23ED2304146BBC48B
+            D8D2D29F2D080EDD691216FCF990B50000000049454E44AE426082}
+          FileName = 
+            'D:\Downloads\Mobile360\25 - Cadastro de Produtos\Fontes\Images\i' +
+            'con-detalhe.png'
+        end>
+      Align = Right
+      Margins.Right = 5.000000000000000000
+      Position.X = 446.000000000000000000
+      Position.Y = 1.000000000000000000
+      Size.Width = 23.000000000000000000
+      Size.Height = 61.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Line1: TLine
+      Align = Top
+      LineType = Diagonal
+      Size.Width = 474.000000000000000000
+      Size.Height = 1.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFFECECEC
+    end
+    object cbdisc: TComboBox
+      Align = Client
+      Margins.Top = 15.000000000000000000
+      Margins.Bottom = 15.000000000000000000
+      Size.Width = 367.000000000000000000
+      Size.Height = 31.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+    end
+  end
+  object Layout3: TLayout
+    Align = Top
+    Position.Y = 172.000000000000000000
+    Size.Width = 474.000000000000000000
+    Size.Height = 62.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object Label4: TLabel
+      Align = Left
+      StyledSettings = [Family, Style]
+      Margins.Left = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 1.000000000000000000
+      Size.Width = 69.000000000000000000
+      Size.Height = 61.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.FontColor = xFF4D7EC3
+      Text = 'Data In'#237'cio'
+      TabOrder = 1
+    end
+    object Image5: TImage
+      MultiResBitmap.Height = 48
+      MultiResBitmap.Width = 26
+      MultiResBitmap = <
+        item
+          Width = 26
+          Height = 48
+          PNG = {
+            89504E470D0A1A0A0000000D494844520000001A0000003008060000000F7D6A
+            9E000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            0145494441545847EDD73F52834014C77190024B4F9003C0D07B046A6718CE60
+            67BA1CC12E761E82F100169EC2811476DEC022850543DE2F7962B140D8F75E1A
+            E53BB3B36C92E1339B823FC1D2D23F2BCFF3980FCD8A78EE2BCBF22E8EE3F734
+            4DAF9324F9689AE68BBF5275C5735FDBB6F77CB8A1B12E8A62755AEA72769465
+            D99EA612C76118DE62A2DDEDB43B73A0BAAE77F497DD3062863910A213BE5A63
+            8310B2C6462164894D42C80A3B0B210B6C1684B4D86C0869302F0849316F0849
+            3011847C3131847C30158486301ADF74CD7C3BFE80736E13974A0DD1FD6A4B3B
+            78E065D075DD138D675EF6853C8B1A4268DA5655F579FAE43731E4832011E48B
+            206F4882202F488AA0D9900641B3202D82CE4216089A84AC10340A59226810B2
+            469003E1219F4EFCC24B13044D3DE49B21C881A228FAB9F23ED2304146BBC48B
+            D8D2D29F2D080EDD691216FCF990B50000000049454E44AE426082}
+          FileName = 
+            'D:\Downloads\Mobile360\25 - Cadastro de Produtos\Fontes\Images\i' +
+            'con-detalhe.png'
+        end>
+      Align = Right
+      Margins.Right = 5.000000000000000000
+      Position.X = 446.000000000000000000
+      Position.Y = 1.000000000000000000
+      Size.Width = 23.000000000000000000
+      Size.Height = 61.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Line3: TLine
+      Align = Top
+      LineType = Diagonal
+      Size.Width = 474.000000000000000000
+      Size.Height = 1.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFFECECEC
+    end
+    object DateEdit1: TDateEdit
+      Date = 43743.000000000000000000
+      Align = Left
+      Margins.Top = 17.000000000000000000
+      Margins.Bottom = 17.000000000000000000
+      Position.X = 79.000000000000000000
+      Position.Y = 18.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+    end
+    object DateEdit2: TDateEdit
+      Date = 43743.000000000000000000
+      Align = Left
+      Margins.Top = 17.000000000000000000
+      Margins.Bottom = 17.000000000000000000
+      Position.X = 258.000000000000000000
+      Position.Y = 18.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+    end
+    object Label5: TLabel
+      Align = Left
+      StyledSettings = [Family, Style]
+      Margins.Left = 10.000000000000000000
+      Position.X = 189.000000000000000000
+      Position.Y = 1.000000000000000000
+      Size.Width = 69.000000000000000000
+      Size.Height = 61.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.FontColor = xFF4D7EC3
+      Text = 'Data Fim'
+      TabOrder = 0
+    end
+  end
+end

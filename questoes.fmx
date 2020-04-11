@@ -1,0 +1,128 @@
+object Form_questoes: TForm_questoes
+  Left = 0
+  Top = 0
+  Caption = 'ProvasOn'
+  ClientHeight = 258
+  ClientWidth = 347
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object toolbar: TRectangle
+    Align = Top
+    Fill.Color = xFF4D7EC3
+    Size.Width = 347.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object Label2: TLabel
+      Align = Contents
+      StyledSettings = [Family, Style]
+      HitTest = True
+      Size.Width = 347.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = 'Nova Quest'#227'o'
+      TabOrder = 0
+    end
+    object Image1: TImage
+      MultiResBitmap.Height = 32
+      MultiResBitmap.Width = 32
+      MultiResBitmap = <
+        item
+          Width = 32
+          Height = 32
+          PNG = {
+            89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+            F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            013D494441545847ED945D4B02411486B7FBC8D4343553A2FFDF5574D17D1099
+            696AA59911FD8CFDEC39F06E08116139D3CD3C30CCC73B9EE7EC821B05028180
+            0F8AA2A8645976C938D3913F90EFA7697AC35C244932D7B11F241F48FE9AE779
+            5F917B705619B7A59CA9A7C83D3C698D271F4ABE627FACC83D92DF49FEC2BEAB
+            C83DC8EAC847922FFF433E96FC99FD91A2CDE0BF7AC138A7CEAE8E7E84BB07C8
+            EF255F20EF28DA0C7EBF13C7F19B15A2E01585F6147D0B771ADC9D483EFFB5BC
+            8402A734F1AE26AE992A8ABE20F9744DDE56F4372874B2F626EC435255F40977
+            9A6433C99F985A8AB603823E85ED03624D0CD9D714597648F620F9A3ED156D17
+            EAF710ACD4C408519D65CBA476664D70D6D4753720E8225AAA89096B7BDDB69E
+            39979720EA205E98D8403EE5ACA1D80F08DB88C78C81777920107047147D0014
+            CA907FC5891FDA0000000049454E44AE426082}
+          FileName = 'C:\Users\elias\Desktop\curso\Images\icon-salvar.png'
+        end>
+      Align = Right
+      Position.X = 297.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      WrapMode = Center
+      OnClick = Image1Click
+    end
+  end
+  object Image2: TImage
+    MultiResBitmap.Height = 48
+    MultiResBitmap.Width = 48
+    MultiResBitmap = <
+      item
+        Width = 48
+        Height = 48
+        PNG = {
+          89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+          87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+          00AD494441546843EDD9CD0D83300C86E1884BB7602896EAB103315B927EAE8C
+          D48A016CA7EF73E12797D7C0014103009435C678F86E2D73CEBDF7FED4766A88
+          C34FD7E0F12F8B37DA3F7D293FF5FEC49B327740ADB7783BF6E5DCD44A7C08B5
+          121F42ADC487502BF121D44A7C08B5D68D378AFDBC125F22E237DFFE275DF4DA
+          8F90513343A4A066864841CD0C91829A1922053533440A6A5E73083EEE4650B7
+          0D51F3F3FAB7B23F38006015ADBD01726D97BD182523460000000049454E44AE
+          426082}
+        FileName = 'C:\Users\elias\Desktop\curso\Images\icon-voltar.png'
+      end>
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    OnClick = Image2Click
+  end
+  object Label3: TLabel
+    StyledSettings = [Family, Style]
+    Margins.Left = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 327.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.FontColor = xFF4D7EC3
+    Text = 'Selecione o tipo de quest'#227'o que deseja adicionar:'
+    TabOrder = 0
+  end
+  object groupquestao: TGroupBox
+    Position.X = 24.000000000000000000
+    Position.Y = 112.000000000000000000
+    Size.Width = 297.000000000000000000
+    Size.Height = 100.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Escolha:'
+    TabOrder = 1
+    object CheckBox1: TCheckBox
+      Position.X = 24.000000000000000000
+      Position.Y = 24.000000000000000000
+      Size.Width = 129.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Verdadeiro ou falso'
+      OnChange = CheckBox1Change
+    end
+    object CheckBox2: TCheckBox
+      Position.X = 24.000000000000000000
+      Position.Y = 56.000000000000000000
+      TabOrder = 0
+      Text = 'M'#250'ltipla escolha'
+      OnChange = CheckBox2Change
+    end
+  end
+end

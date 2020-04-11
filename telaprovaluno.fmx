@@ -1,0 +1,423 @@
+object Form14: TForm14
+  Left = 0
+  Top = 0
+  Caption = 'ProvasOn - Avalia'#231#227'o em execu'#231#227'o'
+  ClientHeight = 573
+  ClientWidth = 905
+  Fill.Kind = Solid
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 905.000000000000000000
+    Size.Height = 525.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Label3: TLabel
+      Align = Scale
+      StyledSettings = [Family, Style]
+      Margins.Left = 10.000000000000000000
+      Position.X = 61.773414611816410000
+      Position.Y = 1.104941487312317000
+      Size.Width = 626.812988281250000000
+      Size.Height = 29.833400726318360000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.FontColor = xFF4D7EC3
+      Text = 'Enunciado:'
+      TabOrder = 0
+    end
+    object groupquestao: TGroupBox
+      Align = Scale
+      Position.X = 60.000000000000000000
+      Position.Y = 124.000000000000000000
+      Size.Width = 814.000000000000000000
+      Size.Height = 357.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Escolha uma op'#231#227'o'
+      TabOrder = 1
+      object Layout2: TLayout
+        Align = Scale
+        Position.X = 4.063923358917236000
+        Position.Y = 27.287240982055660000
+        Size.Width = 806.886291503906300000
+        Size.Height = 62.531829833984380000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        object Layout6: TLayout
+          Align = Client
+          Margins.Left = 75.000000000000000000
+          Size.Width = 731.886291503906300000
+          Size.Height = 62.531829833984380000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object Memo2: TMemo
+            Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+            DataDetectorTypes = []
+            ReadOnly = True
+            Align = Client
+            Size.Width = 731.886291503906300000
+            Size.Height = 62.531829833984380000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            Viewport.Width = 727.900000000000000000
+            Viewport.Height = 58.500000000000000000
+          end
+        end
+        object CheckBox1: TCheckBox
+          Position.X = 32.000000000000000000
+          Position.Y = 18.000000000000000000
+          Size.Width = 17.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          OnChange = CheckBox1Change
+        end
+      end
+      object Layout3: TLayout
+        Align = Scale
+        Position.X = 4.064916610717773000
+        Position.Y = 89.818435668945310000
+        Size.Width = 806.886230468750000000
+        Size.Height = 62.531997680664060000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object CheckBox3: TCheckBox
+          Position.X = 32.000000000000000000
+          Position.Y = 21.000000000000000000
+          Size.Width = 17.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          OnChange = CheckBox3Change
+        end
+        object Layout7: TLayout
+          Align = Client
+          Margins.Left = 75.000000000000000000
+          Size.Width = 731.886230468750000000
+          Size.Height = 62.531997680664060000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object Memo3: TMemo
+            Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+            DataDetectorTypes = []
+            ReadOnly = True
+            Align = Client
+            Size.Width = 731.886230468750000000
+            Size.Height = 62.531997680664060000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            Viewport.Width = 727.900000000000000000
+            Viewport.Height = 58.500000000000000000
+          end
+        end
+      end
+      object Layout4: TLayout
+        Align = Scale
+        Position.X = 3.965893507003784000
+        Position.Y = 150.953552246093800000
+        Size.Width = 808.050537109375000000
+        Size.Height = 62.805511474609380000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object CheckBox4: TCheckBox
+          Position.X = 32.000000000000000000
+          Position.Y = 21.000000000000000000
+          Size.Width = 17.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          OnChange = CheckBox4Change
+        end
+        object Layout8: TLayout
+          Align = Client
+          Margins.Left = 75.000000000000000000
+          Size.Width = 733.050537109375000000
+          Size.Height = 62.805511474609380000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object Memo4: TMemo
+            Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+            DataDetectorTypes = []
+            ReadOnly = True
+            Align = Client
+            Size.Width = 733.050537109375000000
+            Size.Height = 62.805511474609380000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            Viewport.Width = 729.100000000000000000
+            Viewport.Height = 58.800000000000000000
+          end
+        end
+      end
+      object Layout5: TLayout
+        Align = Scale
+        Position.X = 4.064916610717773000
+        Position.Y = 277.413665771484400000
+        Size.Width = 806.886230468750000000
+        Size.Height = 62.532012939453130000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object CheckBox5: TCheckBox
+          Position.X = 32.000000000000000000
+          Position.Y = 20.000000000000000000
+          Size.Width = 17.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          OnChange = CheckBox5Change
+        end
+        object Layout9: TLayout
+          Align = Client
+          Margins.Left = 75.000000000000000000
+          Size.Width = 731.886230468750000000
+          Size.Height = 62.532012939453130000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object Memo5: TMemo
+            Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+            DataDetectorTypes = []
+            ReadOnly = True
+            Align = Client
+            Size.Width = 731.886230468750000000
+            Size.Height = 62.532012939453130000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            Viewport.Width = 727.900000000000000000
+            Viewport.Height = 58.500000000000000000
+          end
+        end
+      end
+      object Layout11: TLayout
+        Align = Scale
+        Position.X = 5.133718967437744000
+        Position.Y = 213.057739257812500000
+        Size.Width = 807.020751953125000000
+        Size.Height = 62.972717285156250000
+        Size.PlatformDefault = False
+        TabOrder = 5
+        object CheckBox2: TCheckBox
+          Position.X = 32.000000000000000000
+          Position.Y = 20.000000000000000000
+          Size.Width = 17.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          OnChange = CheckBox2Change
+        end
+        object Layout12: TLayout
+          Align = Client
+          Margins.Left = 75.000000000000000000
+          Size.Width = 732.020751953125000000
+          Size.Height = 62.972717285156250000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object Memo7: TMemo
+            Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+            DataDetectorTypes = []
+            ReadOnly = True
+            Align = Client
+            Size.Width = 732.020751953125000000
+            Size.Height = 62.972717285156250000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            Viewport.Width = 728.000000000000000000
+            Viewport.Height = 59.000000000000000000
+          end
+        end
+      end
+    end
+    object Memo1: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      ReadOnly = True
+      Align = Scale
+      Position.X = 59.021743774414060000
+      Position.Y = 34.253200531005860000
+      Size.Width = 820.091247558593800000
+      Size.Height = 87.290420532226560000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Viewport.Width = 816.100000000000000000
+      Viewport.Height = 83.300000000000000000
+    end
+    object GroupBox1: TGroupBox
+      Align = Scale
+      Position.X = 239.347366333007800000
+      Position.Y = 129.940124511718800000
+      Size.Width = 430.414367675781300000
+      Size.Height = 59.730499267578130000
+      Size.PlatformDefault = False
+      Text = 'Escolha a devida op'#231#227'o abaixo:'
+      TabOrder = 2
+      object CheckBox6: TCheckBox
+        Position.X = 24.000000000000000000
+        Position.Y = 24.000000000000000000
+        Size.Width = 129.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'Verdadeiro'
+        OnChange = CheckBox6Change
+        OnClick = CheckBox6Click
+      end
+      object CheckBox7: TCheckBox
+        Position.X = 241.000000000000000000
+        Position.Y = 24.000000000000000000
+        TabOrder = 0
+        Text = 'Falso'
+        OnChange = CheckBox7Change
+        OnClick = CheckBox7Click
+      end
+    end
+    object Layout10: TLayout
+      Position.X = 784.000000000000000000
+      Position.Y = 480.000000000000000000
+      Size.Width = 121.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+      TabOrder = 4
+      OnClick = Layout10Click
+      object Rectangle1: TRectangle
+        Align = Client
+        Fill.Color = xFF4D7EC3
+        Size.Width = 121.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = Rectangle1Click
+        object Label4: TLabel
+          Align = Client
+          StyledSettings = [Family]
+          Size.Width = 121.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 15.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claAliceblue
+          TextSettings.HorzAlign = Center
+          Text = 'Finalizar avalia'#231#227'o'
+          TabOrder = 0
+          OnClick = Label4Click
+        end
+      end
+    end
+  end
+  object toolbar: TRectangle
+    Align = Top
+    Fill.Color = xFF4D7EC3
+    Size.Width = 905.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object Label2: TLabel
+      Align = Contents
+      StyledSettings = [Family, Style]
+      HitTest = True
+      Size.Width = 905.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      TabOrder = 0
+    end
+    object Image1: TImage
+      MultiResBitmap.Height = 50
+      MultiResBitmap = <
+        item
+          Width = 50
+          Height = 50
+          PNG = {
+            89504E470D0A1A0A0000000D49484452000000320000003208060000001E3F88
+            B1000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            01F3494441546843ED993D4BC35014867BE360A8501541FD19824B2707D78A5F
+            ABB3AB5FD55FE33F7072B0D4C9C1D9D50F1011545C9C5A4D4D5B92F81E7C2F84
+            6A076389F7D6FBC021C9CD19CEC3C94D6E9282C3E17038FE2549928C203C1E66
+            46719B3B287E1C51465494521718AA7B9EF7F279D61244228EE3F5288A6A4110
+            34B03DC57199A733F1EB96FE14766211B11986E142B1582CA1134D7425648AF9
+            5062151DA8A3136FD84FBADDEE25BAB1812831CD6CA450C40A25024A5C616C0B
+            BBB34C331B4A2C53E29D12D7228198619AB9A05E45892599D090082971438969
+            A69A8B4820E4EE546127BA94B8C5D836628AA9E642898994444C893B8CED6077
+            92A9E682223D29941235111020712F1208F3EF4EA8F78B8474A3D3E93C606C17
+            31C65473E9913849493C616C0F31CA5473E9231151A22AE7996A2E285226F677
+            128F18DB679AD95042DF9DF49CD01255A6990F8A95875DEFC496CBC98E4E6850
+            FB3C248E454268B7DBCF9038E0E95C317F12E6C1305D5AC331D905CAD87DFBD5
+            A076FB1F889A3E32762D51343D32762E1A35DFC908562DE335A8DBFE172B0D65
+            EC7ED5D5880C0AB6FBE3431ACAD8FB39280D65ECFE40A741C1F67F32D5880C8A
+            5EA3CCABC88023C41C533291FBD24129D5409C210E7DDF3F6FB55A4DE906447C
+            A664C2FDE819141019C8AF3787C3E170FC0185C2075EDE81B746205CB4000000
+            0049454E44AE426082}
+          FileName = 'C:\Users\elias\Desktop\curso\Images\icon-voltar.png'
+        end>
+      Align = Right
+      Position.X = 855.000000000000000000
+      RotationAngle = 180.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      WrapMode = Center
+      OnClick = Image1Click
+    end
+    object Image2: TImage
+      MultiResBitmap.Width = 48
+      MultiResBitmap = <
+        item
+          Width = 48
+          Height = 48
+          PNG = {
+            89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+            87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            00AD494441546843EDD9CD0D83300C86E1884BB7602896EAB103315B927EAE8C
+            D48A016CA7EF73E12797D7C0014103009435C678F86E2D73CEBDF7FED4766A88
+            C34FD7E0F12F8B37DA3F7D293FF5FEC49B327740ADB7783BF6E5DCD44A7C08B5
+            121F42ADC487502BF121D44A7C08B5D68D378AFDBC125F22E237DFFE275DF4DA
+            8F90513343A4A066864841CD0C91829A1922053533440A6A5E73083EEE4650B7
+            0D51F3F3FAB7B23F38006015ADBD01726D97BD182523460000000049454E44AE
+            426082}
+          FileName = 'C:\Users\elias\Desktop\curso\Images\icon-voltar.png'
+        end>
+      Align = Left
+      Size.Width = 49.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Image2Click
+    end
+    object Edit1: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Left
+      TabOrder = 1
+      ReadOnly = True
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claRed
+      Position.X = 387.000000000000000000
+      Position.Y = 10.000000000000000000
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 38.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family]
+    end
+    object Label1: TLabel
+      Align = Left
+      StyledSettings = [Family, Style]
+      Margins.Left = 150.000000000000000000
+      Position.X = 199.000000000000000000
+      Size.Width = 178.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.FontColor = claAliceblue
+      Text = 'Valor da &Quest'#227'o:'
+      TabOrder = 2
+    end
+  end
+end
